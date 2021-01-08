@@ -1,51 +1,5 @@
 ﻿  Human.cpp
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(20,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(20,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(20,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(20,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(21,26): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(35,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(35,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(35,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(35,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(36,26): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(52,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(52,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(52,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(52,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(53,26): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(39,22): error C2039: "className": не является членом "Human".
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(3): message : см. объявление "Human"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(51,1): error C2511: bool Human::IsA(std::string): перегруженная функция-член не найдена в "Human"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(3): message : см. объявление "Human"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(133,19): error C2039: "className": не является членом "Man".
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(28): message : см. объявление "Man"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(133,28): error C2084: функция "const std::string className(void)" уже имеет текст реализации
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(39): message : см. предыдущее определение "className"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(138,1): error C2511: bool Man::IsA(std::string): перегруженная функция-член не найдена в "Man"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(28): message : см. объявление "Man"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(144,29): error C2660: Human::IsA: функция не принимает 1 аргументов
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(21,15): message : см. объявление "Human::IsA"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(168,20): error C2039: "className": не является членом "Baby".
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(45): message : см. объявление "Baby"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(173,1): error C2511: bool Baby::IsA(std::string): перегруженная функция-член не найдена в "Baby"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(45): message : см. объявление "Baby"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.cpp(179,27): error C2660: Man::IsA: функция не принимает 1 аргументов
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\human.h(36,15): message : см. объявление "Man::IsA"
   ООП-2.cpp
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(20,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(20,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(20,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(20,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(21,26): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(35,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(35,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(35,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(35,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(36,26): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(52,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(52,32): error C3646: className: неизвестный спецификатор переопределения
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(52,33): error C2059: синтаксическая ошибка: )
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(52,34): error C2238: непредвиденные лексемы перед ";"
-C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\Human.h(53,26): error C2061: синтаксическая ошибка: идентификатор "string"
+C:\Users\Gabba\Documents\OOP5\ООП---2\ООП---2\ООП-2.cpp(36,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода...
+  ООП---2.vcxproj -> C:\Users\Gabba\Documents\OOP5\ООП---2\Debug\ООП---2.exe

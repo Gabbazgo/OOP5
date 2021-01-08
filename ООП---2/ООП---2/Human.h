@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+using std::string;
 
 class Human { //класс Human
 protected:
@@ -8,7 +10,7 @@ public:
 	Human();
 	Human(int a, int w, int h);
 	Human(Human& Black);
-
+	void GetOlder(int a);
 	virtual void SetW(int w);
 	virtual void Print();
 	void Up(int a, int w, int h);
@@ -20,6 +22,7 @@ public:
 	virtual const string className();
 	virtual bool IsA(string className);
 	static void func(const Human* const human);
+
 
 	virtual ~Human();
 
@@ -38,6 +41,8 @@ public:
 	void SetPower(int p);
 	 virtual const char* GetType();
 	 virtual void Mode();
+	 int GetParam();
+	 
 	~Man();
 
 };
@@ -52,6 +57,8 @@ public:
 	virtual const string className();
 	virtual bool IsA(string className);
 	virtual void Mode();
+	int GetParam();
+
 	
 	void Print();
 	void SetDex(int d);

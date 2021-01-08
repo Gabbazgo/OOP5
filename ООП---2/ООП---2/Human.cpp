@@ -1,5 +1,6 @@
-#include "human.h"
+#include "Human.h"
 #include <iostream>
+
 
 
 using namespace std;
@@ -25,7 +26,7 @@ Human::Human(Human& black) {
 	weight = black.weight;
 	height = black.height;
 
-	cout << "Вызов конструктора копирования класса Human : Human(Human& gay)" << endl;
+	cout << "Вызов конструктора копирования класса Human : Human(Human& g)" << endl;
 }
 
 void Human::Up(int aH, int wH, int hH)
@@ -57,7 +58,7 @@ bool Human::IsA(string className)
 }
 void Human::SetW(int w) {
 	weight = w;
-	cout << "Вызов метода Run (" << weight << ")" << endl;
+	//cout << "Вызов метода Run (" << weight << ")" << endl;
 }
 
 void Human::Print() {
@@ -91,7 +92,9 @@ void Human::Mode() {
 	cout << "Возраст = " << endl;
 	cin >> age;
 } 
-
+void Human::GetOlder(int a) {
+	age = age + a;
+}
 Human :: ~Human() {
 	cout << "Вызов деструктора ~Human()" << endl;
 }
@@ -143,6 +146,9 @@ bool Man::IsA(string className)
 
 	return Human::IsA(className);
 }
+int Man::GetParam() {
+	return age + weight + height;
+}
 
 Man :: ~Man() {
 	cout << "Вызов деструктора класса Man" << endl;
@@ -181,7 +187,7 @@ bool Baby::IsA(string className)
 
 void Baby::Print() {
 	Man::Print();
-	cout << "Значение ловкости" << " " << dex << endl;
+	cout << " Значение ловкости" << " " << dex << endl;
 }
 
 Baby::Baby(Baby& baby) :Man(baby) {
@@ -190,6 +196,9 @@ Baby::Baby(Baby& baby) :Man(baby) {
 
 void Baby::SetDex(int d) {
 	dex = d;
+}
+int Baby::GetParam() {
+	return age + weight + height - dex;
 }
 
 Baby :: ~Baby() {

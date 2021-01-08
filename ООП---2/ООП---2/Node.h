@@ -73,7 +73,7 @@ void Node<T>::SetPrev(Node <T>* _prev) {
 
 template <typename T>
 Node<T>::~Node<T>() {
-	cout << "Вызван деструктор класса Node";
+	cout << "Вызван деструктор класса Node"<<endl;
 }
 
 
