@@ -159,6 +159,25 @@ Baby::Baby(int a, int w, int h, int p, int d) : Man(a, w, h, p) {
 	dex = d;
 	cout << "Вызов конструктора с параметрами Baby :: Baby(" << age << "," << weight << "," << height << "," << power << "," << dex << ")" << endl;
 }
+void Baby::Mode() {
+	Man::Mode();
+	cout << "Сила = " << endl;
+	cin >> power;
+}
+
+const string Baby::className()
+{
+	return "Baby";
+}
+bool Baby::IsA(string className)
+{
+
+
+	if (className.compare("Baby") == 0)
+		return true;
+
+	return Man::IsA(className);
+}
 
 void Baby::Print() {
 	Man::Print();
@@ -180,38 +199,13 @@ Baby :: ~Baby() {
 /* */
 
 Woman::Woman() {
-	param = new Human;
+	
 	cout << "Вызов конструктора по умолчанию класса Woman: Woman()" << endl;
 }
 
 Woman::Woman(Woman& woman) {
-	param = new Human(woman.param->GetAge(), woman.param->GetWeight(), woman.param->GetHeight());
+
 	cout << " Вызов конструктора копирования класса Woman: Woman(Woman& woman)" << endl;
-}
-
-Woman::Woman(Human& _param) {
-	param = new Human(_param.GetAge(), _param.GetWeight(), _param.GetHeight());
-	cout << "Вызов конструктора с параметрами класса Woman(Human& _param)" << endl;
-}
-
-Human* Woman::GetParam() {
-	return param;
-}
-
-void Woman::SetParam(Human& _param) {
-	param = new Human(_param);
-}
-
-void Woman::GetVozr() {
-
-	if (param->GetAge() < 16)
-		cout << "Девочка" << endl;
-
-	if (param->GetAge() > 16 && param->GetAge() < 30)
-		cout << "Девушка" << endl;
-
-	if (param->GetAge() > 30)
-		cout << "Женщина" << endl;
 }
 
 Woman::~Woman() {

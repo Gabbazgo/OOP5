@@ -32,13 +32,13 @@ public:
 	Man();
 	Man(int a, int w, int h, int p);
 	Man(Man& Black);
-	const string className() override;
-	bool IsA(string className) override;
+	virtual const string className();
+	virtual bool IsA(string className);
 	void Print();
 	void SetPower(int p);
-	 const char* GetType();
-	 void Mode() ;
-	~Man() override;
+	 virtual const char* GetType();
+	 virtual void Mode();
+	~Man();
 
 };
 
@@ -49,6 +49,9 @@ public:
 	Baby();
 	Baby(int a, int w, int h, int p, int d);
 	Baby(Baby& Black);
+	virtual const string className();
+	virtual bool IsA(string className);
+	virtual void Mode();
 	
 	void Print();
 	void SetDex(int d);
@@ -57,19 +60,22 @@ public:
 
 };
 
-class Woman { // отдельный класс Woman для композиции классов
+class Woman : public Human { // отдельный класс Woman для композиции классов
 
 private:
-	Human* param;
+	int z;
 
 public:
 	Woman();
-	Woman(Human& age1);
+	Woman(int a,int w,int h, int z);
 	Woman(Woman& woman);
 
-	void GetVozr();
-	Human* GetParam();
-	void SetParam(Human& _param);
+	int GetZ();
+	void SetZ(int z);
+	virtual const char* GetType();
+	virtual void Mode();
+	virtual const string className();
+	virtual bool IsA(string className);
 
 	~Woman();
 };
