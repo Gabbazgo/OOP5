@@ -200,14 +200,43 @@ Baby :: ~Baby() {
 
 Woman::Woman() {
 	
+
 	cout << "Вызов конструктора по умолчанию класса Woman: Woman()" << endl;
 }
 
-Woman::Woman(Woman& woman) {
-
+Woman::Woman(int a, int w, int h, int z) : Human(age, weight, height), z(z) {
+	cout << "Вызов конструктора с параметрами Woman()" << endl;
+}
+Woman::Woman(Woman& woman) : Human(woman), z(woman.z)
+{
 	cout << " Вызов конструктора копирования класса Woman: Woman(Woman& woman)" << endl;
 }
-
+void Woman::Print(){
+	Human::Print();
+	cout << "// Значение z: "<< z << endl;
+}
+int Woman::GetZ() {
+	return z;
+}
+void Woman::SetZ(int ze) {
+	z = ze;
+}
+const string Woman::className() {
+	return "Woman";
+}
+bool Woman::IsA(string className) {
+	if (className.compare("Woman") == 0)
+		return true;
+	return Human::IsA(className);
+}
+void Woman::Mode() {
+	Human::Mode();
+	cout << "z = ";
+	cin >> z;
+}
+const char* Woman::GetType() {
+	return "Woman";
+}
 Woman::~Woman() {
 	cout << "Вызов деструктора класса Woman" << endl;
 }

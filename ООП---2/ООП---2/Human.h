@@ -74,6 +74,7 @@ public:
 	void SetZ(int z);
 	virtual const char* GetType();
 	virtual void Mode();
+	void Print();
 	virtual const string className();
 	virtual bool IsA(string className);
 
