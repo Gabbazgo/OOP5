@@ -1,0 +1,25 @@
+﻿  Human.cpp
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(20,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(20,32): error C3646: className: неизвестный спецификатор переопределения
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(20,33): error C2059: синтаксическая ошибка: )
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(20,34): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(21,26): error C2061: синтаксическая ошибка: идентификатор "string"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(38,22): error C2039: "className": не является членом "Human".
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(3): message : см. объявление "Human"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(50,1): error C2511: bool Human::isA(std::string): перегруженная функция-член не найдена в "Human"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(3): message : см. объявление "Human"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(110,19): error C2509: Print: функция-член не объявлена в "Man"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(28): message : см. объявление "Man"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(132,19): error C2039: "className": не является членом "Man".
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(28): message : см. объявление "Man"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(132,28): error C2084: функция "const std::string className(void)" уже имеет текст реализации
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(38): message : см. предыдущее определение "className"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.cpp(137,1): error C2509: isA: функция-член не объявлена в "Man"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\human.h(28): message : см. объявление "Man"
+  ООП-2.cpp
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.h(20,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.h(20,32): error C3646: className: неизвестный спецификатор переопределения
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.h(20,33): error C2059: синтаксическая ошибка: )
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.h(20,34): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Kirill\Documents\OOP3\ООП---2\ООП---2\Human.h(21,26): error C2061: синтаксическая ошибка: идентификатор "string"
+  Создание кода...
